@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <role display_value="manager" name="manager">aba70a1c93740210667935918bba108c</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-03 15:46:04</sys_created_on>
+        <sys_id>bfa70a1c93740210667935918bba108e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>aba70a1c93740210667935918bba108c</sys_name>
+        <sys_package display_value="demoPortal" source="1627ce9893740210667935918bba10ca">1627ce9893740210667935918bba10ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demoPortal">1627ce9893740210667935918bba10ca</sys_scope>
+        <sys_update_name>sys_embedded_help_role_bfa70a1c93740210667935918bba108e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-03 15:46:04</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
