@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">eda3c3e493f00210667935918bba10d8</sp_column>
+        <sp_widget display_value="KB Article Helpful">69a638365b722200a9ad09ed5a62bceb</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 14:48:00</sys_created_on>
+        <sys_id>f6f34be493f00210667935918bba1059</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="demoPortal" source="1627ce9893740210667935918bba10ca">1627ce9893740210667935918bba10ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demoPortal">1627ce9893740210667935918bba10ca</sys_scope>
+        <sys_update_name>sp_instance_f6f34be493f00210667935918bba1059</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 14:48:00</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=f6f34be493f00210667935918bba1059"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="demoPortal">1627ce9893740210667935918bba10ca</application>
+        <file_path/>
+        <instance_id>fe32ea59db2ab598b1eb9027c59619ec</instance_id>
+        <instance_name>dev212792</instance_name>
+        <name>sp_instance_f6f34be493f00210667935918bba1059</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="2">eda3c3e493f00210667935918bba10d8</sp_column><sp_widget display_value="KB Article Helpful">69a638365b722200a9ad09ed5a62bceb</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-04 14:48:00</sys_created_on><sys_id>f6f34be493f00210667935918bba1059</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="demoPortal" source="1627ce9893740210667935918bba10ca">1627ce9893740210667935918bba10ca</sys_package><sys_policy/><sys_scope display_value="demoPortal">1627ce9893740210667935918bba10ca</sys_scope><sys_update_name>sp_instance_f6f34be493f00210667935918bba1059</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-04 14:48:00</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=f6f34be493f00210667935918bba1059"/></record_update>]]></payload>
+        <payload_hash>1750757115</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>201d0b1c93780210667935918bba1044</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 14:48:00</sys_created_on>
+        <sys_id>faf34be493f00210667935918bba105b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e09ef97420000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 14:48:00</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>32f34be496f002103975dc0f62a3cf5b</update_guid>
+        <update_guid_history>32f34be496f002103975dc0f62a3cf5b:1750757115</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">5e0407e493f00210667935918bba10b3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 14:48:14</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>9e47bfb13ba74daa90dde61f709e6944</sys_id>
+        <sys_metadata>f6f34be493f00210667935918bba1059</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="demoPortal" source="1627ce9893740210667935918bba10ca">1627ce9893740210667935918bba10ca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="demoPortal">1627ce9893740210667935918bba10ca</sys_scope>
+        <sys_scope_delete display_value="">084b1f49bf2e40e083ab23f9bce01990</sys_scope_delete>
+        <sys_update_name>sp_instance_f6f34be493f00210667935918bba1059</sys_update_name>
+        <sys_update_version display_value="sp_instance_f6f34be493f00210667935918bba1059">faf34be493f00210667935918bba105b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 14:48:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

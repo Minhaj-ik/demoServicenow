@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>    div {
+        margin: 20px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th, td {
+        padding: 10px;
+        border: 1.5px solid #ddd;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    tr:hover {
+        background-color: #e0e0e0;
+    }</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>problem_assigned</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>problem_assigned</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[// Widget Server Script
+(function() {
+    data.incidents = [];
+
+    
+    var gr = new GlideRecord('incident');
+    gr.addQuery('priority', '1'); 
+    gr.addQuery('state', '1');   
+    gr.query();
+
+  
+    while (gr.next()) {
+        var incident_data = {
+            number: gr.getValue('number'),
+            priority: gr.getDisplayValue('priority'),
+            state: gr.getDisplayValue('state')
+        };
+        data.incidents.push(incident_data);
+    }
+})();
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 00:17:54</sys_created_on>
+        <sys_id>99dcbf94933c0210667935918bba1045</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>problem_assigned</sys_name>
+        <sys_package display_value="demoPortal" source="1627ce9893740210667935918bba10ca">1627ce9893740210667935918bba10ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demoPortal">1627ce9893740210667935918bba10ca</sys_scope>
+        <sys_update_name>sp_widget_99dcbf94933c0210667935918bba1045</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 16:09:49</sys_updated_on>
+        <template><![CDATA[<!-- Widget Template -->
+<div>
+    <h3>Open Incidents with Priority Critical</h3>
+    <table border="1.5px">
+        <tr>
+            <th>Number</th>
+            <th>Priority</th>
+            <th>State</th>
+        </tr>
+        <tr ng-repeat="incident_data in data.incidents">
+            <td>{{incident_data.number}}</td>
+            <td>{{incident_data.priority}}</td>
+            <td>{{incident_data.state}}</td>
+        </tr>
+    </table>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

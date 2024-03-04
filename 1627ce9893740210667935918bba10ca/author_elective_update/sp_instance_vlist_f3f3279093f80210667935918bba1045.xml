@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list/>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">4a62b1900b0103002600425663673ac9</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-03 22:29:23</sys_created_on>
+        <sys_id>f3f3279093f80210667935918bba1045</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="demoPortal" source="1627ce9893740210667935918bba10ca">1627ce9893740210667935918bba10ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demoPortal">1627ce9893740210667935918bba10ca</sys_scope>
+        <sys_update_name>sp_instance_vlist_f3f3279093f80210667935918bba1045</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-03 22:29:23</sys_updated_on>
+        <table/>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_vlist>
+    <sys_translated_text action="DELETE" query="documentkey=f3f3279093f80210667935918bba1045"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="demoPortal">1627ce9893740210667935918bba10ca</application>
+        <file_path/>
+        <instance_id>fe32ea59db2ab598b1eb9027c59619ec</instance_id>
+        <instance_name>dev212792</instance_name>
+        <name>sp_instance_vlist_f3f3279093f80210667935918bba1045</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist"><sp_instance_vlist action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field/><field_list/><filter/><glyph/><id/><maximum_entries>5</maximum_entries><order>1</order><order_by/><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">4a62b1900b0103002600425663673ac9</sp_column><sp_page/><sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget><sys_class_name>sp_instance_vlist</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-03 22:29:23</sys_created_on><sys_id>f3f3279093f80210667935918bba1045</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="demoPortal" source="1627ce9893740210667935918bba10ca">1627ce9893740210667935918bba10ca</sys_package><sys_policy/><sys_scope display_value="demoPortal">1627ce9893740210667935918bba10ca</sys_scope><sys_update_name>sp_instance_vlist_f3f3279093f80210667935918bba1045</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-03 22:29:23</sys_updated_on><table/><title/><url/><widget_parameters/></sp_instance_vlist><sys_translated_text action="delete_multiple" query="documentkey=f3f3279093f80210667935918bba1045"/></record_update>]]></payload>
+        <payload_hash>1246183477</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>201d0b1c93780210667935918bba1044</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-03 22:29:23</sys_created_on>
+        <sys_id>b7f3279093f80210667935918bba1047</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e066fa4760000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-03 22:29:23</sys_updated_on>
+        <type>Instance of Simple List</type>
+        <update_guid>fbf3279088f802109ac3ebf2c0f38546</update_guid>
+        <update_guid_history>fbf3279088f802109ac3ebf2c0f38546:1246183477</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">7914279093f80210667935918bba109b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-03 22:29:48</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_vlist">sp_instance_vlist</sys_db_object>
+        <sys_id>5887a1b2472b4f5eaf1b077d8819a491</sys_id>
+        <sys_metadata>f3f3279093f80210667935918bba1045</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="demoPortal" source="1627ce9893740210667935918bba10ca">1627ce9893740210667935918bba10ca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="demoPortal">1627ce9893740210667935918bba10ca</sys_scope>
+        <sys_scope_delete display_value="">084b1f49bf2e40e083ab23f9bce01990</sys_scope_delete>
+        <sys_update_name>sp_instance_vlist_f3f3279093f80210667935918bba1045</sys_update_name>
+        <sys_update_version display_value="sp_instance_vlist_f3f3279093f80210667935918bba1045">b7f3279093f80210667935918bba1047</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-03 22:29:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
